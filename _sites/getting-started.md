@@ -26,7 +26,7 @@ description: Azure API Management product overview.
 </section>
    <section style="margin: 50px 0;">
       <article class="get-started">
-         <img src='/assets/img/apim-product.jpg' class="getstarted-img">
+         <img src="{{ '/assets/img/apim-product.jpg' | relative_url }}" class="getstarted-img">
          <div class="get-started-description">
             <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
                 <h2 id="productpage">API Management Product Page</h2>
@@ -39,7 +39,7 @@ description: Azure API Management product overview.
          </div>
       </article>
       <article class="get-started">
-            <img src='/assets/img/docs.png' class="getstarted-img">
+            <img src="{{ '/assets/img/docs.png' | relative_url }}" class="getstarted-img">
          <div class="get-started-description">
          <a href="https://learn.microsoft.com/en-us/azure/api-management/">
             <h2 id="documentation">API Management Documentation</h2>
@@ -52,7 +52,7 @@ description: Azure API Management product overview.
          </div>
       </article>
       <article class="get-started">
-            <img src='/assets/img/learn.png' class="getstarted-img">
+            <img src="{{ '/assets/img/learn.png' | relative_url }}" class="getstarted-img">
          <div class="get-started-description">
          <a href="https://learn.microsoft.com/en-us/training/browse/?filter-products=api%20management&products=azure-api-management">
             <h2 id="documentation">Learning Paths & Modules</h2>

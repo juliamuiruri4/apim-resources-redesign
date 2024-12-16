@@ -43,17 +43,6 @@ Visit the Azure API Management <a href="https://github.com/Azure/API-Management/
 <section class="genai-capabilities">
    <div class="floating-right">
    <h2>Generative AI Capabilities in APIM</h2>
-   <!-- <div id="tc-members">
-         <a href="https://www.cisco.com/" target="_blank"><img src=" {{ 'assets/img/tc-cisco.png' | relative_url }}" class="tc-logo" alt="Cisco logo" title="Cisco"></a>
-         <a href="https://www.emqx.com/en" target="_blank"><img src=" {{ 'assets/img/tc-emq.png' | relative_url }}" class="tc-logo" alt="EMQ logo" title="EMQ"></a>
-         <a href="https://www.hivemq.com" target="_blank" ><img src=" {{ 'assets/img/tc-hivemq.png' | relative_url }}" class="tc-logo" alt="HiveMQ logo" title="HiveMQ"></a>
-         <a href="https://www.ibm.com" target="_blank"><img src=" {{ 'assets/img/tc-ibm.png' | relative_url }}" class="tc-logo" alt="IBM logo" title="IBM"></a>
-         <a href="https://www.microsoft.com" target="_blank"><img src=" {{ 'assets/img/tc-microsoft.png' | relative_url }}" class="tc-logo" alt="Microsoft logo" title="Microsoft"></a>
-         <a href="https://www.ninefx.com" target="_blank"><img src=" {{ 'assets/img/tc-ninefx.png' | relative_url }}" class="tc-logo" alt="Ninefx Logo logo" title="Ninefx"></a>
-         <a href="https://www.softwareag.com/" target="_blank"><img src=" {{ 'assets/img/tc-software-ag.png' | relative_url }}" class="tc-logo" alt="Software-AG logo" title="Software-AG"></a>
-         <a href="https://www.solace.com/" target="_blank"><img src=" {{ 'assets/img/tc-solace.png' | relative_url }}" class="tc-logo" alt="Solace logo" title="Solace"></a>
-         <a href="https://thingstream.io/" target="_blank"><img src=" {{ 'assets/img/tc-thingstream.png' | relative_url }}" class="tc-logo" alt="Thingstream logo" title="Thingstream"></a>
-   </div> -->
       <article class="use-case">
          <div class="use-case-description">
             <p>Azure API Management has built a set of GenAI Gateway capabilities, designed specifically for GenAI use cases</p>          
