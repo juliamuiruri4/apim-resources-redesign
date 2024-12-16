@@ -26,11 +26,11 @@ description: Azure API Management product overview.
 </section>
    <section style="margin: 50px 0;">
       <article class="get-started">
-         <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
-            <img src='/assets/img/apim-product.jpg' class="getstarted-img">
-         </a>
+         <img src='/assets/img/apim-product.jpg' class="getstarted-img">
          <div class="get-started-description">
-            <h2 id="productpage">API Management Product Page</h2>
+            <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
+                <h2 id="productpage">API Management Product Page</h2>
+            </a>
             <ul>
                <li>Product Overview</li>
                <li>Pricing</li>
@@ -39,11 +39,11 @@ description: Azure API Management product overview.
          </div>
       </article>
       <article class="get-started">
-         <a href="https://learn.microsoft.com/en-us/azure/api-management/">
             <img src='/assets/img/docs.png' class="getstarted-img">
-         </a>
          <div class="get-started-description">
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/">
             <h2 id="documentation">API Management Documentation</h2>
+         </a>
             <ul>
                <li>Tutorials</li>
                <li>Concept</li>
@@ -52,11 +52,11 @@ description: Azure API Management product overview.
          </div>
       </article>
       <article class="get-started">
-         <a href="https://learn.microsoft.com/en-us/training/browse/?filter-products=api%20management&products=azure-api-management">
             <img src='/assets/img/learn.png' class="getstarted-img">
-         </a>
          <div class="get-started-description">
+         <a href="https://learn.microsoft.com/en-us/training/browse/?filter-products=api%20management&products=azure-api-management">
             <h2 id="documentation">Learning Paths & Modules</h2>
+         </a>
             <ul>
                <li>Learning Paths per Roles</li>
                <li>Modules per levels</li>
