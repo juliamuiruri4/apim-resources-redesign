@@ -1,61 +1,60 @@
 ---
 layout: home
-title: MQTT - The Standard for IoT Messaging 
+title: Azure API Management - Publish APIs to developers, partners, and employees securely and at scale 
 permalink: /
-description: A lightweight messaging protocol for small sensors and mobile devices, optimized for high-latency or unreliable networks, enabling a Connected World and the Internet of Things
+description: A hybrid, multicloud management platform for APIs across all environments.
 ---
 
 <div class="width-container">
-   <h2>Why MQTT?</h2> 
+   <h2>Product Overview</h2>
    <section id="keyfeature-list">
+    <p>Azure API Management is a hybrid, multicloud, platform-as-a-service management platform for APIs across all environments, supporting the complete API lifecycle.</p>
    <div class="keyfeature">
-      <h3>Lightweight and Efficient</h3>
-      <p>MQTT clients are very small, require minimal resources so can be used on small microcontrollers. MQTT message headers are small to optimize network bandwidth.
+      <h3>API Gateway</h3>
+      <p>The API gateway acts as a facade to the backend services, allowing API providers to abstract API implementations and evolve backend architecture without impacting API consumers.
       </p>
    </div>
    <div class="keyfeature mid">
-      <h3>Bi-directional Communications</h3>
-      <p>MQTT allows for messaging between device to cloud and cloud to device. This makes for easy broadcasting messages to groups of things.
+      <h3>Self-hosted gateway</h3>
+      <p>The self-hosted gateway enables customers with hybrid IT infrastructure to manage APIs hosted on-premises and across clouds from a single API Management service in Azure.
       </p>
    </div>
    <div class="keyfeature last">
-      <h3>Scale to Millions of Things</h3>
-      <p>MQTT can scale to connect with millions of IoT devices.
+      <h3>Management plane</h3>
+      <p>API providers interact with the service through the management plane which provides full access to the API Management service capabilities.
       </p>
    </div>
    <div class="keyfeature">
-      <h3>Reliable Message Delivery</h3>
-      <p>Reliability of message delivery is important for many IoT use cases. This is why MQTT has 3 defined quality of service levels: 0 - at most once, 1- at least once, 2 - exactly once
+      <h3>Developer Portal</h3>
+      <p>The open-source developer portal is an automatically generated, fully customizable website with the documentation of your APIs.
       </p>
    </div>
    <div class="keyfeature mid">
-      <h3>Support for Unreliable Networks</h3>
-      <p>Many IoT devices connect over unreliable cellular networks. MQTT’s support for persistent sessions reduces the time to reconnect the client with the broker.
+      <h3>Products</h3>
+      <p>Products in API Management have one or more APIs, and can be open or protected. Protected products require a subscription key, while open products can be consumed freely.
       </p>
    </div>
    <div class="keyfeature last">
-      <h3>Security Enabled<br/>&nbsp;</h3>
-      <p>MQTT makes it easy to encrypt messages using TLS and authenticate clients using modern authentication protocols, such as OAuth.
+      <h3>Groups<br/>&nbsp;</h3>
+      <p>Groups are used to manage the visibility of products to developers in the developer portal.  
       </p>
    </div>
 </section>
-<h2>MQTT Publish / Subscribe Architecture</h2> 
+<h2>API Management Components</h2>
    <section id="pub-sub-graphic">
-      <img src="{{ 'assets/img/mqtt-publish-subscribe.png' | relative_url }}" alt="MQTT: publish / subscribe architecture" title="MQTT: publish / subscribe architecture">
+      <img src="{{ 'assets/img/apim-components.png' | relative_url }}" alt="API Management Components" title="API Management Components">
    </section>
 </div>
 
-<section id="mqtt-in-action">
-<h2>MQTT in Action</h2>
-<p>MQTT is used in a wide variety of industries</p>
+<section id="apim-in-action">
+<h2>Stories of Success: Real-World Impact</h2>
+<p>Our greatest successes are seen in the achievements of our customers.</p>
    <div class="flex-wrap-centered">
-      <a href="{{ '/use-cases#automotive' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/automotive.jpg' | relative_link }}');">Automotive</div></a>
-      <a href="{{ '/use-cases#logistics' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/logistics.jpg' | relative_link }}');">Logistics</div></a>
-      <a href="{{ '/use-cases#manufacturing' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/manufacturing.jpg' | relative_link }}');"><span style="color: #000">Manufacturing</span></div></a>
-      <a href="{{ '/use-cases#smarthome' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/smart-home.jpg' | relative_link }}');">Smart Home</div></a>
-      <a href="{{ '/use-cases#consumer-products' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/consumer-products.jpg' | relative_link }}');"><span style="color: #000">Consumer Products</span></div></a>
-      <a href="{{ '/use-cases#transportation' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/transportation.jpg' | relative_link }}');">Transportation</div></a>
+      <a href="https://www.microsoft.com/en/customers/story/1713578321126014779-kpmg-azure-integration-services-netherlands#asset_id_1713579974086977456"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/kpmg.jpg' | relative_link }}');">KPMG</div></a>
+      <a href="https://www.microsoft.com/en/customers/story/1650081367579868834-fujitsu-professional-services-azure-en-japan"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/fujitsu.jpg' | relative_link }}');">Fujitsu Japan</div></a>
+      <a href="https://www.microsoft.com/en/customers/story/1336089737047375040-zeiss-accelerates-cloud-first-development-on-azure-and-streamlines-order-processing"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/zeiss.jpg' | relative_link }}');"><span style="color: #000">ZEISS</span></div></a>
+      <a href="https://www.microsoft.com/en/customers/story/784791-mercedes-benz-r-and-d-creates-container-driven-cars-powered-by-microsoft-azure"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/mercedes.jpg' | relative_link }}');"><span style="color: #000">Mercedes-Benz</span></div></a>
+      <a href="https://www.microsoft.com/en/customers/story/1746441052494354987-backbase-azure-api-management-banking-en-netherlands"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/backbase.jpg' | relative_link }}');">Backbase</div></a>
+      <a href="https://www.microsoft.com/en/customers/story/1437472766467051070-cdiscount-retailers-azure-en-english"><div class="apim-in-action-box" style="background-image: url('{{ 'assets/img/Cdiscount.jpg' | relative_link }}');">Cdiscount</div></a>
    </div>
 </section>
-
-

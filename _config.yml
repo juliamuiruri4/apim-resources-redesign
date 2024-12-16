@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "MQTT.org"
-description: "MQTT: The Standard for IoT Messaging"
+title: "aka.ms/apimlove"
+description: "A library of useful resources about Azure API Management."
 
 permalink: pretty
 

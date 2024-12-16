@@ -98,8 +98,8 @@ h3 a:focus {
    flex-wrap: wrap;
 }
 
-#mqtt-logo-header {
-   width: 125px;
+#apim-logo-header {
+   width: 50px;
    padding-top: 30px;
 }
 
@@ -360,37 +360,123 @@ footer {
    justify-content: space-between;
 }
 
-.keyfeature {
-   flex-basis: 33%;
-   padding-left: 0;
-   padding-right: 8%;
-   margin-bottom: 30px;
-   display: block;
+#apim-in-action {
+
+}
+
+.apim-in-action-box {
+   width: 282px;
+   height: 202px;
+   margin: 5px;
+   padding: 2px 10px;
    box-sizing: border-box;
+   color: #fff;
+   text-align: left;
+}
+#content-list {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
 }
 
-.keyfeature.mid {
-   padding-left: 4%;
-   padding-right: 4%;
+.keyfeature {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    margin-bottom: 20px;
 }
 
-.keyfeature.last {
-   padding-left: 8%;
-   padding-right: 0;
+.keyfeature iframe {
+    width: 100%;
+    height: 265px;
+}
+
+@media all and (max-width: 768px) {
+    .keyfeature {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+#content-list {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.keyfeature {
+    flex: 0 0 48%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.blog-section {
+   padding: 4rem 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.blog-section h2 {
+   text-align: left;
+   margin-bottom: 2rem;
+   font-size: 2.5rem;
+}
+
+.blog-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+   padding: 1rem;
+}
+
+.blog-card {
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+   overflow: hidden;
+   transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+   transform: translateY(-5px);
+}
+
+.blog-content {
+   padding: 1.5rem;
+}
+
+.blog-content h3 {
+   margin: 0 0 1rem 0;
+   font-size: 1.4rem;
+}
+
+.blog-meta {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #888;
+}
+
+.read-more {
+   color: #007bff;
+   text-decoration: none;
 }
 
 #pub-sub-graphic {
    text-align: center;
 }
 
-#mqtt-in-action {
+#apim-in-action {
    background-color: #eceeef;
    padding: 25px 10% 150px;
    margin-bottom: -100px;
    text-align: center;
 }
 
-.mqtt-in-action-box {
+.apim-in-action-box {
    width: 282px;
    height: 202px;
    margin: 5px;
@@ -437,17 +523,6 @@ main {
    border-bottom: #afafaf 1px dotted;
 }
 
-.software-logo {
-   width: 150px;
-   height: 65px;
-   margin: 0 10px;
-   float: left;
-}
-
-.software-logo.mqtt-logo {
-   transform: scale(.8);
-}
-
 .panel-item h3 {
    color: #660066;
    font-size: 18px;
@@ -471,17 +546,15 @@ main {
 .spec-hl {
    display: flex;
    width: 100%;
-   margin: 20px 0 5px;
-}
-.specs-logo {
-   width: 100px;
-   height: 40px;
-   margin-right: 15px;
+   margin: 20px 0 5px 20px;
 }
 
-.technical-committee {
+.specs-logo {
+   width: 4%;
+}
+
+.genai-capabilities {
    width: 100%;
-   background-color: #eceef0;
    text-align: left;
    padding: 25px 0 50px;
    margin-top: 50px;
@@ -504,14 +577,19 @@ main {
    margin: 10px 5px;
 }
 
-#mqtt-logos div {
-   display: inline-block;
-   margin: 25px 2.5% 25px 0;
-}
-
 .logo-container {
    width: 45%;
    box-sizing: border-box;
+}
+
+.get-started {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 10px;
+}
+
+.get-started-description {
+   margin-left: 40px;
 }
 
 /* Use Cases Page */
@@ -532,8 +610,21 @@ main {
 .use-case-img {
    margin-bottom: 20px;
    display: block;
-   width: 282px !important;
-   height: 202px !important;
+   width: 600px;
+}
+
+.get-started-btn {
+   background-color: purple;
+   color: white;
+   border-radius: 30px;
+   border-color: purple;
+   font-size: small;
+}
+
+.getstarted-img {
+   margin-bottom: 20px;
+   display: block;
+   width: 500px;
 }
 
 @media all and (max-width: 1366px){

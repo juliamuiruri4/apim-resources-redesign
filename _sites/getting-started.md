@@ -1,33 +1,69 @@
 ---
 title: Getting started
 index: 1
-description: Useful resources to get you started with MQTT, the standard messaging and data exchange protocol for the Internet of Things (IoT).
+description: Azure API Management product overview.
 ---
 
 <div class="content-floating">
    <h1>Getting started</h1>
+   <section id="keyfeature-list">
+    <p>Azure API Management is a hybrid, multicloud, platform-as-a-service management platform for APIs across all environments, supporting the complete API lifecycle.</p>
+   <div class="keyfeature">
+      <h3><a href="https://github.com/Azure-Samples/AI-Gateway">AI Gateway</a></h3>
+      <p>APIM ❤️ OpenAI - this repo contains a set of experiments on using GenAI capabilities of Azure API Management with Azure OpenAI and other services.
+      </p>
+   </div>
+   <div class="keyfeature mid">
+      <h3><a href="https://github.com/Azure-Samples/genai-gateway-apim">Azure OpenAI (Node.js) Sample</a></h3>
+      <p>Azure API Management (APIM) - Azure OpenAI Sample (Node.js).
+      </p>
+   </div>
+   <div class="keyfeature last">
+    <h3><a href="https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator">AI Hub Gateway Landing Zone accelerator</a></h3>
+      <p>Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure AI services.
+      </p>
+   </div>
+</section>
    <section style="margin: 50px 0;">
-      <div class="round-number">1</div>
-      <article class="indented">
-         <h2>Basic Concepts</h2>
-         <h3><a href="https://www.hivemq.com/mqtt-essentials/" alt="HiveMQ MQTT Essentials" title="HiveMQ MQTT Essentials">MQTT Essentials</a></h3>
-         A blog post series about the basic concepts of MQTT on hivemq.com.
-         <br/><br/>
-         <h3><a href="http://www.steves-internet-guide.com/mqtt/" alt="Steve‘s internet guide" title="Steve‘s internet guide">Beginners Guide To The MQTT Protocol</a></h3>
-         An article on  introducing MQTT on Steve‘s internet guide.
+      <article class="get-started">
+         <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
+            <img src='/assets/img/apim-product.jpg' class="getstarted-img">
+         </a>
+         <div class="get-started-description">
+            <h2 id="productpage">API Management Product Page</h2>
+            <ul>
+               <li>Product Overview</li>
+               <li>Pricing</li>
+               <li>Customer Stories</li>
+            </ul>
+         </div>
+      </article>
+      <article class="get-started">
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/">
+            <img src='/assets/img/docs.png' class="getstarted-img">
+         </a>
+         <div class="get-started-description">
+            <h2 id="documentation">API Management Documentation</h2>
+            <ul>
+               <li>Tutorials</li>
+               <li>Concept</li>
+               <li>Architecture</li>
+            </ul>
+         </div>
+      </article>
+      <article class="get-started">
+         <a href="https://learn.microsoft.com/en-us/training/browse/?filter-products=api%20management&products=azure-api-management">
+            <img src='/assets/img/learn.png' class="getstarted-img">
+         </a>
+         <div class="get-started-description">
+            <h2 id="documentation">Learning Paths & Modules</h2>
+            <ul>
+               <li>Learning Paths per Roles</li>
+               <li>Modules per levels</li>
+            </ul>
+         </div>
       </article>
    </section>
 
-   <section style="margin-bottom: 200px;">
-      <div class="round-number">2</div>
-      <article class="indented">
-         <h2>Getting started tutorials</h2>
-         <h3><a href="http://www.steves-internet-guide.com/mqtt-works/" alt="Steve‘s internet guide" title="Steve‘s internet guide">How MQTT Works - Beginners Course</a></h3>
-         A quickstart with MQTT on Steve‘s internet guide.
-         <br/><br/>
-         <h3><a href="https://www.hivemq.com/blog/how-to-get-started-with-mqtt/" alt="HiveMQ" title="HiveMQ.com">Getting Started with MQTT</a></h3>
-         A blog post written by hivemq.com
-      </article>
-   </section>
 </div>
 
