@@ -8,17 +8,17 @@ description: Azure API Management product overview.
    <h1>Getting started</h1>
    <section id="keyfeature-list">
     <p>Azure API Management is a hybrid, multicloud, platform-as-a-service management platform for APIs across all environments, supporting the complete API lifecycle.</p>
-   <div class="keyfeature">
+   <div class="sample">
       <h3><a href="https://github.com/Azure-Samples/AI-Gateway">AI Gateway</a></h3>
       <p>APIM ❤️ OpenAI - this repo contains a set of experiments on using GenAI capabilities of Azure API Management with Azure OpenAI and other services.
       </p>
    </div>
-   <div class="keyfeature mid">
+   <div class="sample">
       <h3><a href="https://github.com/Azure-Samples/genai-gateway-apim">Azure OpenAI (Node.js) Sample</a></h3>
       <p>Azure API Management (APIM) - Azure OpenAI Sample (Node.js).
       </p>
    </div>
-   <div class="keyfeature last">
+   <div class="sample">
     <h3><a href="https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator">AI Hub Gateway Landing Zone accelerator</a></h3>
       <p>Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure AI services.
       </p>
@@ -35,6 +35,18 @@ description: Azure API Management product overview.
                <li>Product Overview</li>
                <li>Pricing</li>
                <li>Customer Stories</li>
+            </ul>
+         </div>
+      </article>
+      <article class="get-started">
+         <img src="{{ '/assets/img/build-apis.jpg' | relative_url }}" class="getstarted-img">
+         <div class="get-started-description">
+            <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
+                <h2 id="productpage">Build APIs</h2>
+            </a>
+            <ul>
+               <li>Microsoft API Products</li>
+               <li>APIs in Action Series</li>
             </ul>
          </div>
       </article>

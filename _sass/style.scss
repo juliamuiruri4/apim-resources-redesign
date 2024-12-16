@@ -360,8 +360,10 @@ footer {
    justify-content: space-between;
 }
 
-#apim-in-action {
-
+#keyfeature-list .sample {
+   flex: 0 0 calc(33.333% - 10px);
+   max-width: calc(33.333% - 10px);
+   margin-bottom: 20px;
 }
 
 .apim-in-action-box {
