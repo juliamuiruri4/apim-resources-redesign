@@ -6,46 +6,110 @@ description: A hybrid, multicloud management platform for APIs across all enviro
 ---
 
 <div class="width-container">
-   <h2>Product Overview</h2>
-   <section id="keyfeature-list">
-    <p>Azure API Management is a hybrid, multicloud, platform-as-a-service management platform for APIs across all environments, supporting the complete API lifecycle.</p>
-   <div class="keyfeature">
-      <h3>API Gateway</h3>
-      <p>The API gateway acts as a facade to the backend services, allowing API providers to abstract API implementations and evolve backend architecture without impacting API consumers.
-      </p>
+   <h2>What is Azure API Management?</h2>
+      <p>Azure API Management is a hybrid, multicloud platform designed to manage APIs across various environments. It provides a comprehensive solution for the entire API lifecycle, including creation, deployment, and monitoring. The platform features an API gateway, a management plane, and a developer portal, enabling secure and scalable API management. It helps organizations expose services as APIs, protect and accelerate API traffic, and enhance API discoverability for internal and external users.</p> 
+   <h2>Labs & Samples</h2>
+   <div class="samples-container">
+      <div class="sample">
+         <h3>
+            <a href="https://github.com/Azure-Samples/AI-Gateway">AI Gateway (APIM ❤️ OpenAI) </a>
+         </h3>
+         <p>This repository contains a set of experiments on using Generative AI capabilities of Azure API Management with Azure OpenAI and other services.</p>
+      </div>
+      <div class="sample">
+         <h3><a href="https://github.com/Azure-Samples/genai-gateway-apim">Azure OpenAI (Node.js) Sample</a></h3>
+         <p>This sample shows how to manage Generative AI APIs at scale using Azure API Management and Azure OpenAI Service for a simple chatbot.</p>
+      </div>
+      <div class="sample">
+         <h3><a href="https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator">AI Hub Gateway Landing Zone accelerator</a></h3>
+         <p>Reference architecture that provides a set of guidelines and best practices for implementing a central AI API gateway to empower various line-of-business units in an organization to leverage Azure AI services.</p>
+      </div>
    </div>
-   <div class="keyfeature mid">
-      <h3>Self-hosted gateway</h3>
-      <p>The self-hosted gateway enables customers with hybrid IT infrastructure to manage APIs hosted on-premises and across clouds from a single API Management service in Azure.
-      </p>
-   </div>
-   <div class="keyfeature last">
-      <h3>Management plane</h3>
-      <p>API providers interact with the service through the management plane which provides full access to the API Management service capabilities.
-      </p>
-   </div>
-   <div class="keyfeature">
-      <h3>Developer Portal</h3>
-      <p>The open-source developer portal is an automatically generated, fully customizable website with the documentation of your APIs.
-      </p>
-   </div>
-   <div class="keyfeature mid">
-      <h3>Products</h3>
-      <p>Products in API Management have one or more APIs, and can be open or protected. Protected products require a subscription key, while open products can be consumed freely.
-      </p>
-   </div>
-   <div class="keyfeature last">
-      <h3>Groups<br/>&nbsp;</h3>
-      <p>Groups are used to manage the visibility of products to developers in the developer portal.  
-      </p>
-   </div>
-</section>
-<h2>API Management Components</h2>
-   <section id="pub-sub-graphic">
-      <img src="{{ 'assets/img/apim-components.png' | relative_url }}" alt="API Management Components" title="API Management Components">
-   </section>
-</div>
-
+   <h2>Getting Started</h2>
+   <article class="get-started">
+      <div class="get-started-description">
+         <img src="{{ '/assets/img/apim-product.jpg' | relative_url }}" class="getstarted-img">
+         <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
+             <h4 id="productpage">Product Page</h4>
+         </a>
+         <ul>
+            <li>Product Overview</li>
+            <li>Pricing</li>
+            <li>Customer Stories</li>
+         </ul>
+      </div>
+      <div class="get-started-description">
+         <img src="{{ '/assets/img/build-apis.jpg' | relative_url }}" class="getstarted-img">
+         <a href="https://azure.microsoft.com/en-us/products/api-management?msockid=2eceb07538316c77374fa557395c6dda">
+            <h4 id="productpage">Build APIs</h4>
+         </a>
+         <ul>
+            <li>Microsoft API Products</li>
+            <li>APIs in Action Series</li>
+         </ul>
+      </div>
+      <div class="get-started-description">
+         <img src="{{ '/assets/img/docs.png' | relative_url }}" class="getstarted-img">
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/">
+            <h4 id="documentation">Documentation</h4>
+         </a>
+         <ul>
+            <li>Tutorials</li>
+            <li>Concept</li>
+            <li>Architecture</li>
+         </ul>
+      </div>
+      <div class="get-started-description">
+         <img src="{{ '/assets/img/learn.png' | relative_url }}" class="getstarted-img">
+         <a href="https://learn.microsoft.com/en-us/training/browse/?filter-products=api%20management&products=azure-api-management">
+            <h4 id="documentation">Learning Paths & Modules</h4>
+         </a>
+         <ul>
+            <li>Learning Paths per Roles</li>
+            <li>Modules per levels</li>
+         </ul>
+      </div>
+   </article>
+   <h2>Generative AI Capabilities in APIM</h2>
+   <article class="genai-apim">
+      <div class="genai-apim-description">
+         <p>Azure API Management has built a set of GenAI Gateway capabilities, designed specifically for GenAI use cases</p>          
+      </div>
+      <img src="{{ '/assets/img/genai-capabilities.gif' | relative_url }}" class="genai-apim-img">
+   </article>
+   <article class="genai-apim">
+      <img src="{{ '/assets/img/token-limit.gif' | relative_url }}" class="genai-apim-img">
+      <div class="genai-apim-description">
+         <h3>Azure OpenAI Token Limit Policy</h3>
+         <p>Azure OpenAI Token Limit policy allows you to manage and enforce limits per API consumer, based on the usage of Azure OpenAI tokens</p>         
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/llm-token-limit-policy"><button class="get-started-btn">Get Started</button>
+         </a> 
+      </div>
+   </article>
+   <article class="genai-apim">
+      <div class="genai-apim-description">
+         <h3>Azure OpenAI Emit Token Metric Policy</h3>
+         <p>Azure OpenAI enables you to configure token usage metrics to be sent to Azure Applications Insights, providing overview of the utilization of Azure OpenAI models across multiple applications or API consumers. </p>         
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/llm-emit-token-metric-policy"><button class="get-started-btn">Get Started</button></a> 
+      </div>
+      <img src="{{ '/assets/img/emit-token.gif' | relative_url }}" class="genai-apim-img">
+   </article>
+   <article class="genai-apim">
+      <img src="{{ '/assets/img/load-balancing.gif' | relative_url }}" class="genai-apim-img">
+      <div class="genai-apim-description">
+         <h3>Load Balancer and Circuit Breaker</h3>
+         <p>Load Balancer and Circuit Breaker features allow you to spread the load across multiple Azure OpenAI endpoints.</p>         
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep"><button class="get-started-btn">Get Started</button></a> 
+      </div>
+   </article>
+   <article class="genai-apim">
+      <div class="genai-apim-description">
+         <h3>Azure OpenAI Semantic Caching policy</h3>
+         <p>Azure OpenAI Semantic Caching policy empowers you to optimize token usage by leveraging semantic caching, which stores completions for prompts with similar meaning. </p>         
+         <a href="https://learn.microsoft.com/en-us/azure/api-management/azure-openai-semantic-cache-store-policy"><button class="get-started-btn">Get Started</button></a> 
+      </div>
+      <img src="{{ '/assets/img/semantic-caching.gif' | relative_url }}" class="genai-apim-img">
+   </article>
 <section id="apim-in-action">
 <h2>Stories of Success: Real-World Impact</h2>
 <p>Our greatest successes are seen in the achievements of our customers.</p>
