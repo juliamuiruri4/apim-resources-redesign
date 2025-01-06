@@ -1,5 +1,5 @@
 ---
-title: What's New
+title: Community Content
 index: 2
 description: Azure API Management service changelog.
 ---
